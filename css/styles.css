@@ -166,9 +166,9 @@ p {
 
 /* Media Queries */
 
-@media screen and (max-width: 1028px) {
+@media (max-width: 1028px) {
 
-    #title{
+    #title .container-fluid{
         text-align: center;
     }
 
