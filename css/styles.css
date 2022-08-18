@@ -76,10 +76,14 @@ p {
 
 
 /* Title Section */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
 
 #title .container-fluid {       /*hierarchial selector synatx*/
     padding: 3% 15% 7%;
-    text-align: left;
 }
 
 /* Title Image */
@@ -168,7 +172,7 @@ p {
 
 @media (max-width: 1028px) {
 
-    #title .container-fluid{
+    #title {
         text-align: center;
     }
 
