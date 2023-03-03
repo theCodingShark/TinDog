@@ -192,3 +192,7 @@ p {
 .footer-logo {
     margin: 20px 10px;
 }
+
+.footer-logo:hover {
+    color:#ff4c68;
+}
